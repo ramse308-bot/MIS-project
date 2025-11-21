@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mikail Ramsey - Personal website showcasing hobbies, career interests, and interactive projects">
+    <meta property="og:title" content="Mikail Ramsey - Personal Website">
+    <meta property="og:description" content="Explore my hobbies, career interests, and interactive projects">
+    <meta property="og:type" content="website">
+    <title>Mikail Ramsey - Home</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Mikail Ramsey</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="game.html">Game</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <video class="hero__bg" autoplay loop muted playsinline preload="metadata" poster="images/proffesional picture.JPG"></video>
+        
+        <div class="hero__overlay">
+            <picture>
+                <source srcset="images/proffesional picture.JPG" type="image/jpeg">
+                <img 
+                    src="images/proffesional picture.JPG" 
+                    alt="Professional headshot of Mikail Ramsey"
+                    class="hero__headshot"
+                    loading="eager"
+                >
+            </picture>
+            <h1>Hello — I'm Mikail Ramsey</h1>
+            <p class="hero__lead">Welcome to my personal website. I'm a student at the University of Minnesota Duluth, passionate about creating, outdoor adventures, and anything sports.</p>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: var(--spacing-md);">
+                    I'm currently pursuing my education at the University of Minnesota Duluth, where I'm developing my skills in marketing and business. My journey has been shaped by a passion for creation, exploring new places, and engaging in activities that challenge both my mind and body.
+                </p>
+                <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: var(--spacing-md);">
+                    Whether I'm on the basketball court, hiking through nature, or working on projects, I bring dedication and enthusiasm to everything I do. I believe in the power of continuous learning and the importance of balancing work with activities that bring joy and fulfillment.
+                </p>
+                <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: var(--spacing-md);">
+                    This website is a reflection of who I am—my interests, my experiences, and my aspirations. Feel free to explore and learn more about my hobbies, my journey at UMD, and my career goals.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobby Summaries Section -->
+    <section style="background: var(--surface); padding-top: var(--spacing-xl); padding-bottom: var(--spacing-xl);">
+        <div class="container">
+            <h2 class="section-title">My Hobbies</h2>
+            <div class="hobby-grid">
+                <!-- Basketball Hobby -->
+                <div class="hobby-card">
+                    <h3>Basketball</h3>
+                    <picture>
+                        <source srcset="images/basketball hobby .JPG" type="image/jpeg">
+                        <img src="images/basketball hobby .JPG" alt="Basketball" loading="lazy">
+                    </picture>
+                    <p>Basketball has been a significant part of my life for years. The sport teaches discipline, teamwork, and perseverance.</p>
+                    <p>Whether it's a pickup game or practicing free throws, it keeps me focused and driven.</p>
+                </div>
+
+                <!-- Hiking Hobby -->
+                <div class="hobby-card">
+                    <h3>Hiking & Outdoor Adventures</h3>
+                    <picture>
+                        <source srcset="images/hiking .JPG" type="image/jpeg">
+                        <img src="images/hiking .JPG" alt="Hiking" loading="lazy">
+                    </picture>
+                    <p>I love exploring nature and finding peaceful trails around Duluth. Each hike brings new discoveries and a chance to recharge.</p>
+                    <p>It keeps me active while letting me appreciate the beauty of the outdoors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro Video Section -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Intro Video</h2>
+            <div class="video-container">
+                <video controls autoplay loop muted playsinline preload="metadata" poster="images/proffesional picture.JPG">
+                    <source src="videos/introvideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mikail Ramsey. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

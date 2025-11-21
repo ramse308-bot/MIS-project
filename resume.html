@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mikail Ramsey's resume - Education, experience, skills, and achievements">
+    <title>Resume - Mikail Ramsey</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mikail Ramsey",
+      "url": "https://mikailramsey.com",
+      "jobTitle": "Student",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "University of Minnesota Duluth"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="Index.html" class="nav-logo">Mikail Ramsey</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="game.html">Game</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" style="min-height: 40vh; padding-top: 100px;">
+        <div class="hero__overlay">
+            <h1>Resume</h1>
+            <p class="hero__lead">My professional experience, education, and skills</p>
+            <button class="cta-button" onclick="downloadResume()" style="margin-top: var(--spacing-md);">
+                Download PDF Resume
+            </button>
+        </div>
+    </header>
+
+    <!-- Resume Content -->
+    <section style="padding-top: var(--spacing-xl);">
+        <div class="container" style="max-width: 900px;">
+            
+            <!-- Contact Information -->
+            <div class="resume-section">
+                <h2 style="color: var(--accent); margin-bottom: var(--spacing-md);">Contact Information</h2>
+                <div class="resume-item">
+                    <p style="color: var(--text); margin-bottom: var(--spacing-xs);"><strong>Name:</strong> Mikail Ramsey</p>
+                    <p style="color: var(--muted); margin-bottom: var(--spacing-xs);"><strong>Email:</strong> <a href="mailto:mikail.ramsey@example.com">mikail.ramsey@example.com</a></p>
+                    <p style="color: var(--muted); margin-bottom: var(--spacing-xs);"><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
+                    <p style="color: var(--muted); margin-bottom: var(--spacing-xs);"><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/mikailramsey" target="_blank" rel="noopener noreferrer">linkedin.com/in/mikailramsey</a></p>
+                    <p style="color: var(--muted); margin-bottom: var(--spacing-xs);"><strong>Portfolio:</strong> <a href="Index.html">mikailramsey.com</a></p>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="resume-section">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>University of Minnesota Duluth</h4>
+                    <p class="meta">Bachelor's Degree | Expected Graduation: [Year]</p>
+                    <ul>
+                        <li>Pursuing degree in [Major/Field of Study]</li>
+                        <li>Maintaining strong academic performance</li>
+                        <li>Active participation in campus organizations and activities</li>
+                        <li>Engaged in hands-on learning and research opportunities</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="resume-section">
+                <h3>Experience</h3>
+                
+                <div class="resume-item">
+                    <h4>Student / Academic Projects</h4>
+                    <p class="meta">University of Minnesota Duluth | [Dates]</p>
+                    <ul>
+                        <li>Developed interactive web applications and games demonstrating technical skills</li>
+                        <li>Collaborated on team projects requiring effective communication and project management</li>
+                        <li>Applied problem-solving skills to complex assignments and real-world scenarios</li>
+                        <li>Demonstrated ability to learn new technologies and adapt to changing requirements</li>
+                        <li>Maintained high standards of quality and attention to detail in all deliverables</li>
+                    </ul>
+                </div>
+
+                <div class="resume-item">
+                    <h4>Additional Experience</h4>
+                    <p class="meta">Various Roles | [Dates]</p>
+                    <ul>
+                        <li>Gained valuable experience in [relevant field/industry]</li>
+                        <li>Developed strong interpersonal and communication skills</li>
+                        <li>Demonstrated reliability and commitment to excellence</li>
+                        <li>Worked effectively both independently and as part of a team</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="resume-section">
+                <h3>Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Video Production</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Cinematography</span>
+                            <span class="skill-tag">Video Editing</span>
+                            <span class="skill-tag">Color Grading</span>
+                            <span class="skill-tag">Motion Graphics</span>
+                            <span class="skill-tag">Post-Production</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Content Creation</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Action Sports Content</span>
+                            <span class="skill-tag">Lifestyle Videography</span>
+                            <span class="skill-tag">Social Media Content</span>
+                            <span class="skill-tag">Brand Storytelling</span>
+                            <span class="skill-tag">Emotional Storytelling</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Creative Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Visual Composition</span>
+                            <span class="skill-tag">Pacing & Rhythm</span>
+                            <span class="skill-tag">Authentic Moment Capture</span>
+                            <span class="skill-tag">Athletic Content</span>
+                            <span class="skill-tag">Outdoor Videography</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Technical Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">Web Development</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Creative Problem Solving</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Adaptability</span>
+                            <span class="skill-tag">Time Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="resume-section">
+                <h3>Achievements & Certifications</h3>
+                <div class="resume-item">
+                    <ul>
+                        <li>Academic Excellence: Maintained strong academic performance</li>
+                        <li>Project Development: Created interactive web-based games and applications</li>
+                        <li>Leadership: Active participation in campus organizations</li>
+                        <li>Continuous Learning: Self-directed learning in emerging technologies</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mikail Ramsey. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        /**
+         * Download resume PDF
+         * Checks for PDF file and downloads it, or creates one from HTML
+         */
+        function downloadResume() {
+            const pdfPath = 'files/Mikail_Ramsey_Resume.pdf';
+            
+            // Try to download existing PDF
+            fetch(pdfPath)
+                .then(response => {
+                    if (response.ok) {
+                        return response.blob();
+                    }
+                    throw new Error('PDF not found');
+                })
+                .then(blob => {
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'Mikail_Ramsey_Resume.pdf';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    window.URL.revokeObjectURL(url);
+                })
+                .catch(error => {
+                    console.log('PDF not found, please create one at:', pdfPath);
+                    alert('Resume PDF not found. Please create a PDF file at: ' + pdfPath + '\n\nYou can print this page to PDF using your browser\'s print function (Ctrl+P / Cmd+P) and select "Save as PDF".');
+                });
+        }
+    </script>
+</body>
+</html>
+
