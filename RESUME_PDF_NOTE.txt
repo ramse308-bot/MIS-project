@@ -1,0 +1,16 @@
+RESUME PDF PLACEHOLDER NOTE
+============================
+
+A resume PDF file should be placed at:
+  files/Mikail_Ramsey_Resume.pdf
+
+To create the PDF:
+1. Open resume.html in a browser
+2. Use the browser's print function (Ctrl+P / Cmd+P)
+3. Select "Save as PDF" as the destination
+4. Save the file as "Mikail_Ramsey_Resume.pdf" in the files/ directory
+
+Alternatively, you can use any PDF creation tool to generate a PDF from the resume content.
+
+The resume.html page includes a "Download PDF Resume" button that will work once this file is created.
+
